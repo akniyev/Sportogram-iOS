@@ -9,7 +9,9 @@
 /* Begin PBXBuildFile section */
 		9F83820E1F7928550034FF46 /* GymAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F83820D1F7928550034FF46 /* GymAnnotation.swift */; };
 		9F8382101F7928D60034FF46 /* GymAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F83820F1F7928D60034FF46 /* GymAnnotationView.swift */; };
-		9F8382141F792E130034FF46 /* GymListPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F8382131F792E130034FF46 /* GymListPopupView.xib */; };
+		9FACA47E1F7AC80700EF63D5 /* GymListPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FACA47D1F7AC80700EF63D5 /* GymListPopoverViewController.swift */; };
+		9FACA4811F7ACE8B00EF63D5 /* MapItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FACA4801F7ACE8B00EF63D5 /* MapItem.swift */; };
+		9FACA4831F7ACED400EF63D5 /* GymModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FACA4821F7ACED400EF63D5 /* GymModel.swift */; };
 		9FFE67EE1F78FB1400543239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE67ED1F78FB1400543239 /* AppDelegate.swift */; };
 		9FFE67F01F78FB1400543239 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE67EF1F78FB1400543239 /* ViewController.swift */; };
 		9FFE67F31F78FB1400543239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFE67F11F78FB1400543239 /* Main.storyboard */; };
@@ -40,7 +42,9 @@
 /* Begin PBXFileReference section */
 		9F83820D1F7928550034FF46 /* GymAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAnnotation.swift; sourceTree = "<group>"; };
 		9F83820F1F7928D60034FF46 /* GymAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAnnotationView.swift; sourceTree = "<group>"; };
-		9F8382131F792E130034FF46 /* GymListPopupView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GymListPopupView.xib; sourceTree = "<group>"; };
+		9FACA47D1F7AC80700EF63D5 /* GymListPopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymListPopoverViewController.swift; sourceTree = "<group>"; };
+		9FACA4801F7ACE8B00EF63D5 /* MapItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapItem.swift; sourceTree = "<group>"; };
+		9FACA4821F7ACED400EF63D5 /* GymModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymModel.swift; sourceTree = "<group>"; };
 		9FFE67EA1F78FB1400543239 /* Sportogram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sportogram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FFE67ED1F78FB1400543239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FFE67EF1F78FB1400543239 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +108,7 @@
 		9F83820B1F7928380034FF46 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9FACA47F1F7ACE7E00EF63D5 /* Model */,
 				9F83820C1F7928440034FF46 /* Map */,
 			);
 			path = Classes;
@@ -121,17 +126,17 @@
 		9F8382111F792DE20034FF46 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9F8382121F792DF40034FF46 /* Map */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		9F8382121F792DF40034FF46 /* Map */ = {
+		9FACA47F1F7ACE7E00EF63D5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				9F8382131F792E130034FF46 /* GymListPopupView.xib */,
+				9FACA4801F7ACE8B00EF63D5 /* MapItem.swift */,
+				9FACA4821F7ACED400EF63D5 /* GymModel.swift */,
 			);
-			path = Map;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		9FFE67E11F78FB1400543239 = {
@@ -189,6 +194,7 @@
 			children = (
 				9FFE67EF1F78FB1400543239 /* ViewController.swift */,
 				9FFE681C1F78FBD700543239 /* MapViewController.swift */,
+				9FACA47D1F7AC80700EF63D5 /* GymListPopoverViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -301,7 +307,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FFE67F81F78FB1400543239 /* LaunchScreen.storyboard in Resources */,
-				9F8382141F792E130034FF46 /* GymListPopupView.xib in Resources */,
 				9FFE67F51F78FB1400543239 /* Assets.xcassets in Resources */,
 				9FFE67F31F78FB1400543239 /* Main.storyboard in Resources */,
 			);
@@ -328,11 +333,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FACA47E1F7AC80700EF63D5 /* GymListPopoverViewController.swift in Sources */,
 				9FFE67F01F78FB1400543239 /* ViewController.swift in Sources */,
 				9FFE681D1F78FBD700543239 /* MapViewController.swift in Sources */,
 				9F83820E1F7928550034FF46 /* GymAnnotation.swift in Sources */,
 				9F8382101F7928D60034FF46 /* GymAnnotationView.swift in Sources */,
 				9FFE67EE1F78FB1400543239 /* AppDelegate.swift in Sources */,
+				9FACA4811F7ACE8B00EF63D5 /* MapItem.swift in Sources */,
+				9FACA4831F7ACED400EF63D5 /* GymModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +508,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Sportogram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sportogram.sportogram-ios.Sportogram";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +523,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Sportogram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sportogram.sportogram-ios.Sportogram";
 				PRODUCT_NAME = "$(TARGET_NAME)";

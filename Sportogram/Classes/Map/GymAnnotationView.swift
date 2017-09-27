@@ -9,7 +9,7 @@
 import UIKit
 import MapKit
 
-class GymAnnotationView: MKAnnotationView {
+class GymAnnotationView: MKAnnotationView {    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
@@ -18,6 +18,12 @@ class GymAnnotationView: MKAnnotationView {
         super.init(annotation: annotation, reuseIdentifier: reuseIdentifier)
         guard let attractionAnnotation = self.annotation as? GymAnnotation else { return }
         
+//        let badge = UILabel()
+//        badge.text = "+\((self.annotation as? GymAnnotation)?.count ?? 0)"
+//        badge.frame = self.bounds
+//        
+//        self.addSubview(badge)
         
+        self.image = #imageLiteral(resourceName: "location-icon-blue")
     }
 }
