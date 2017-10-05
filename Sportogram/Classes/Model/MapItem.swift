@@ -11,5 +11,14 @@ import MapKit
 
 class MapItem {
     var coordinates : CLLocation? = nil
-    var gyms : [GymModel] = []
+    var gymnasiums : [GymnasiumShortInfo] = []
+
+    init(coordinates: CLLocation?, gymnasiums: [GymnasiumShortInfo]) {
+        self.coordinates = coordinates
+        self.gymnasiums = gymnasiums
+    }
+    
+    convenience init() {
+        self.init(coordinates: nil, gymnasiums: [])
+    }
 }
