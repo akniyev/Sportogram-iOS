@@ -15,13 +15,14 @@
 		9F74B8931F86B9B100489AF9 /* GymnasiumFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74B8921F86B9B100489AF9 /* GymnasiumFilter.swift */; };
 		9F74B8951F86B9D400489AF9 /* TrainingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74B8941F86B9D400489AF9 /* TrainingInfo.swift */; };
 		9F74B8971F86BA6E00489AF9 /* UserInfoShort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74B8961F86BA6E00489AF9 /* UserInfoShort.swift */; };
+		9F74B89A1F86C13100489AF9 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74B8991F86C13100489AF9 /* CalendarViewController.swift */; };
+		9F74B89D1F86C7A500489AF9 /* ItemsWithPaginationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74B89C1F86C7A500489AF9 /* ItemsWithPaginationViewController.swift */; };
 		9F83820E1F7928550034FF46 /* GymAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F83820D1F7928550034FF46 /* GymAnnotation.swift */; };
 		9F8382101F7928D60034FF46 /* GymAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F83820F1F7928D60034FF46 /* GymAnnotationView.swift */; };
 		9FACA47E1F7AC80700EF63D5 /* GymListPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FACA47D1F7AC80700EF63D5 /* GymListPopoverViewController.swift */; };
 		9FACA4811F7ACE8B00EF63D5 /* MapItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FACA4801F7ACE8B00EF63D5 /* MapItem.swift */; };
 		9FACA4831F7ACED400EF63D5 /* GymnasiumShortInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FACA4821F7ACED400EF63D5 /* GymnasiumShortInfo.swift */; };
 		9FFE67EE1F78FB1400543239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE67ED1F78FB1400543239 /* AppDelegate.swift */; };
-		9FFE67F01F78FB1400543239 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE67EF1F78FB1400543239 /* ViewController.swift */; };
 		9FFE67F31F78FB1400543239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFE67F11F78FB1400543239 /* Main.storyboard */; };
 		9FFE67F51F78FB1400543239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FFE67F41F78FB1400543239 /* Assets.xcassets */; };
 		9FFE67F81F78FB1400543239 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFE67F61F78FB1400543239 /* LaunchScreen.storyboard */; };
@@ -59,6 +60,8 @@
 		9F74B8921F86B9B100489AF9 /* GymnasiumFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymnasiumFilter.swift; sourceTree = "<group>"; };
 		9F74B8941F86B9D400489AF9 /* TrainingInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingInfo.swift; sourceTree = "<group>"; };
 		9F74B8961F86BA6E00489AF9 /* UserInfoShort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoShort.swift; sourceTree = "<group>"; };
+		9F74B8991F86C13100489AF9 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		9F74B89C1F86C7A500489AF9 /* ItemsWithPaginationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsWithPaginationViewController.swift; sourceTree = "<group>"; };
 		9F83820D1F7928550034FF46 /* GymAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAnnotation.swift; sourceTree = "<group>"; };
 		9F83820F1F7928D60034FF46 /* GymAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAnnotationView.swift; sourceTree = "<group>"; };
 		9FACA47D1F7AC80700EF63D5 /* GymListPopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymListPopoverViewController.swift; sourceTree = "<group>"; };
@@ -66,7 +69,6 @@
 		9FACA4821F7ACED400EF63D5 /* GymnasiumShortInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymnasiumShortInfo.swift; sourceTree = "<group>"; };
 		9FFE67EA1F78FB1400543239 /* Sportogram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sportogram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FFE67ED1F78FB1400543239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9FFE67EF1F78FB1400543239 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9FFE67F21F78FB1400543239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FFE67F41F78FB1400543239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FFE67F71F78FB1400543239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -132,6 +134,21 @@
 				20535A71309C91BAF11F9474 /* Pods_SportogramUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F74B8981F86BF7C00489AF9 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		9F74B89B1F86C77E00489AF9 /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				9F74B89C1F86C7A500489AF9 /* ItemsWithPaginationViewController.swift */,
+			);
+			path = Generics;
 			sourceTree = "<group>";
 		};
 		9F8382081F7920130034FF46 /* Storyboards */ = {
@@ -217,6 +234,7 @@
 		9FFE67EC1F78FB1400543239 /* Sportogram */ = {
 			isa = PBXGroup;
 			children = (
+				9F74B8981F86BF7C00489AF9 /* Server */,
 				9F8382111F792DE20034FF46 /* Views */,
 				9F83820B1F7928380034FF46 /* Classes */,
 				9F8382091F7922560034FF46 /* Supporting Files */,
@@ -247,9 +265,10 @@
 		9FFE681B1F78FBBE00543239 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				9FFE67EF1F78FB1400543239 /* ViewController.swift */,
+				9F74B89B1F86C77E00489AF9 /* Generics */,
 				9FFE681C1F78FBD700543239 /* MapViewController.swift */,
 				9FACA47D1F7AC80700EF63D5 /* GymListPopoverViewController.swift */,
+				9F74B8991F86C13100489AF9 /* CalendarViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -548,15 +567,16 @@
 				9FACA47E1F7AC80700EF63D5 /* GymListPopoverViewController.swift in Sources */,
 				9F74B8931F86B9B100489AF9 /* GymnasiumFilter.swift in Sources */,
 				9F74B88F1F86B5A300489AF9 /* CalendarEvent.swift in Sources */,
-				9FFE67F01F78FB1400543239 /* ViewController.swift in Sources */,
 				9FFE681D1F78FBD700543239 /* MapViewController.swift in Sources */,
 				9F74B8971F86BA6E00489AF9 /* UserInfoShort.swift in Sources */,
 				9F83820E1F7928550034FF46 /* GymAnnotation.swift in Sources */,
 				9F8382101F7928D60034FF46 /* GymAnnotationView.swift in Sources */,
+				9F74B89A1F86C13100489AF9 /* CalendarViewController.swift in Sources */,
 				9FFE67EE1F78FB1400543239 /* AppDelegate.swift in Sources */,
 				9F74B8951F86B9D400489AF9 /* TrainingInfo.swift in Sources */,
 				9FACA4811F7ACE8B00EF63D5 /* MapItem.swift in Sources */,
 				9FACA4831F7ACED400EF63D5 /* GymnasiumShortInfo.swift in Sources */,
+				9F74B89D1F86C7A500489AF9 /* ItemsWithPaginationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

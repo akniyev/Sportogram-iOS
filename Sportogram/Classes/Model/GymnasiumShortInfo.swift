@@ -9,19 +9,23 @@
 import Foundation
 
 class GymnasiumShortInfo {
-    var gymnasiumId = -1
-    var addressId = -1
-    var addressName = ""
-    var addressString = ""
+    var gymnasiumId: Int
+    var gymnasiumName: String
+    var addressId: Int
+    var addressName: String
+    var addressString: String
+    var distanceFromTheUserInMeters: Int
     
-    init(id gymnasiumId: Int, addressId: Int, addressName: String, addressString: String) {
+    init(id gymnasiumId: Int, gymnasiumName: String, addressId: Int, addressName: String, addressString: String, distanceFromTheUserInMeters: Int) {
         self.gymnasiumId = gymnasiumId
+        self.gymnasiumName = gymnasiumName
         self.addressId = addressId
         self.addressName = addressName
         self.addressString = addressString
+        self.distanceFromTheUserInMeters = distanceFromTheUserInMeters
     }
     
     convenience init() {
-        self.init(id: -1, addressId: -1, addressName: "", addressString: "")
+        self.init(id: -1, gymnasiumName: "", addressId: -1, addressName: "", addressString: "", distanceFromTheUserInMeters: -1)
     }
 }
